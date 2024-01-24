@@ -8,6 +8,10 @@ This repository serves as a comprehensive collection of solutions to the questio
 
 - **Question Solutions:** Detailed answers to all the questions posed during the microprocessor lab sessions.
 
+## STM32 Board Selection
+
+This project is designed and tested primarily on the STM32F103C6 board (available in PROTEUS). If you're using a different board, such as STM32f0DISCOVERY, it's important to note that the code may need adjustments.
+
 ## How to Use
 
 To make the most of this repository, follow these steps:
