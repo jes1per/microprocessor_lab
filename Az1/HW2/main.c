@@ -97,11 +97,11 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  // Making the buttons functional
-	  if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_1) == 0){
+	  if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_1) == 0){			// the button and the input should be configured as "Pull_Up"
 		  counter++;
 		  HAL_Delay(300);		// the delay is for Proteus to work
 	  }
-	  else if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_2) == 0){
+	  else if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_2) == 0){			// the button and the input should be configured as "Pull_Up"
 		  counter--;
 		  HAL_Delay(300);		// the delay is for Proteus to work
 	  }
