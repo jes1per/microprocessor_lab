@@ -91,6 +91,7 @@ void displayLCDhex(int c){
 }
 
 int readInput(int c){
+	// the buttons are in "Pull-up" state
 	if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_4) == GPIO_PIN_RESET){
 		return c+1;
 	}
