@@ -136,7 +136,7 @@ int main(void)
 	  }
 
 	  // Display number
-	  for (int i=0;i<5;i++){
+	  for (int i=0;i<(500/(2*delay));i++){
 		  // Display the first digit
 		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_SET);
 		  displayLCDhex(count/10);
